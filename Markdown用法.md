@@ -1,65 +1,65 @@
-# Markdown Ê¾Àý  
+# Markdown ç¤ºä¾‹  
   
-## »¶Ó­À´µ½MarkdownµÄÊÀ½ç  
+## æ¬¢è¿Žæ¥åˆ°Markdownçš„ä¸–ç•Œ  
   
-Markdown ÊÇÒ»ÖÖÇáÁ¿¼¶±ê¼ÇÓïÑÔ£¬ËüÔÊÐíÈËÃÇÊ¹ÓÃÒ×¶ÁÒ×Ð´µÄ´¿ÎÄ±¾¸ñÊ½±àÐ´ÎÄµµ£¬È»ºó×ª»»³ÉÓÐÐ§µÄXHTML(»òÕßHTML)¡£  
+Markdown æ˜¯ä¸€ç§è½»é‡çº§æ ‡è®°è¯­è¨€ï¼Œå®ƒå…è®¸äººä»¬ä½¿ç”¨æ˜“è¯»æ˜“å†™çš„çº¯æ–‡æœ¬æ ¼å¼ç¼–å†™æ–‡æ¡£ï¼Œç„¶åŽè½¬æ¢æˆæœ‰æ•ˆçš„XHTML(æˆ–è€…HTML)ã€‚  
   
-### ¶ÎÂä  
+### æ®µè½  
   
-Markdown µÄÉè¼ÆÔÊÐíËü¡°¼æÈÝ¡±´¿ÎÄ±¾£¬ÕâÒâÎ¶×ÅËüµÄÓï·¨²¢²»¸´ÔÓ£¬Äã¿ÉÒÔÇáËÉµØÔÄ¶ÁÔ­Ê¼µÄ Markdown ÎÄ¼þ¡£  
+Markdown çš„è®¾è®¡å…è®¸å®ƒâ€œå…¼å®¹â€çº¯æ–‡æœ¬ï¼Œè¿™æ„å‘³ç€å®ƒçš„è¯­æ³•å¹¶ä¸å¤æ‚ï¼Œä½ å¯ä»¥è½»æ¾åœ°é˜…è¯»åŽŸå§‹çš„ Markdown æ–‡ä»¶ã€‚  
   
-Markdown µÄÓï·¨Ö÷ÒªÓÐÒÔÏÂ¼¸¸ö²¿·Ö£º  
+Markdown çš„è¯­æ³•ä¸»è¦æœ‰ä»¥ä¸‹å‡ ä¸ªéƒ¨åˆ†ï¼š  
   
-### ÁÐ±í  
+### åˆ—è¡¨  
   
-#### ÎÞÐòÁÐ±í  
+#### æ— åºåˆ—è¡¨  
   
-- ÏîÄ¿ 1  
-- ÏîÄ¿ 2  
-  - ×ÓÏîÄ¿ 2.1  
-  - ×ÓÏîÄ¿ 2.2  
-- ÏîÄ¿ 3  
+- é¡¹ç›® 1  
+- é¡¹ç›® 2  
+  - å­é¡¹ç›® 2.1  
+  - å­é¡¹ç›® 2.2  
+- é¡¹ç›® 3  
   
-#### ÓÐÐòÁÐ±í  
+#### æœ‰åºåˆ—è¡¨  
   
-1. µÚÒ»²½  
-2. µÚ¶þ²½  
-3. µÚÈý²½  
+1. ç¬¬ä¸€æ­¥  
+2. ç¬¬äºŒæ­¥  
+3. ç¬¬ä¸‰æ­¥  
   
-### ´úÂë¿é  
+### ä»£ç å—  
   
-Èç¹ûÄãÏëÒªÕ¹Ê¾´úÂëÆ¬¶Î£¬¿ÉÒÔÊ¹ÓÃÈý¸ö·´ÒýºÅ£¨\`\`\`£©½«´úÂë¿é°üÎ§ÆðÀ´£¬²¢¿ÉÒÔÖ¸¶¨ÓïÑÔÒÔ»ñµÃÓï·¨¸ßÁÁ£º  
-
-```python
-def say_hello():
-    print("Hello, Markdown!")
-
-say_hello()
-```  
-
-### ÒýÓÃ¿é  
+å¦‚æžœä½ æƒ³è¦å±•ç¤ºä»£ç ç‰‡æ®µï¼Œå¯ä»¥ä½¿ç”¨ä¸‰ä¸ªåå¼•å·ï¼ˆ\`\`\`ï¼‰å°†ä»£ç å—åŒ…å›´èµ·æ¥ï¼Œå¹¶å¯ä»¥æŒ‡å®šè¯­è¨€ä»¥èŽ·å¾—è¯­æ³•é«˜äº®ï¼š  
   
-> ÕâÊÇÒ»¸öÒýÓÃ¿é¡£Markdown Ê¹ÓÃ `>` ·ûºÅÀ´±ê¼ÇÒýÓÃ¡£  
+\`\`\`python  
+def say_hello():  
+    print("Hello, Markdown!")  
   
-### Í¼Æ¬  
+say_hello()  
+\`\`\`  
   
-Äã¿ÉÒÔÔÚMarkdownÎÄ¼þÖÐ²åÈëÍ¼Æ¬£¬Ê¹ÓÃ`![]()`Óï·¨£º  
+### å¼•ç”¨å—  
+  
+> è¿™æ˜¯ä¸€ä¸ªå¼•ç”¨å—ã€‚Markdown ä½¿ç”¨ `>` ç¬¦å·æ¥æ ‡è®°å¼•ç”¨ã€‚  
+  
+### å›¾ç‰‡  
+  
+ä½ å¯ä»¥åœ¨Markdownæ–‡ä»¶ä¸­æ’å…¥å›¾ç‰‡ï¼Œä½¿ç”¨`![]()`è¯­æ³•ï¼š  
   
 ![Markdown Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Markdown-mark.svg/1200px-Markdown-mark.svg.png)  
   
-### Á´½Ó  
+### é“¾æŽ¥  
   
-Markdown Ö§³ÖÁ´½Ó£¬Äã¿ÉÒÔÕâÑùÐ´£º  
+Markdown æ”¯æŒé“¾æŽ¥ï¼Œä½ å¯ä»¥è¿™æ ·å†™ï¼š  
   
-[·ÃÎÊÎÒµÄGitHub](https://github.com/zaozaoiszao)  
+[è®¿é—®æˆ‘çš„GitHub](https://github.com/your-username)  
   
-### ±í¸ñ  
+### è¡¨æ ¼  
   
-Markdown Ò²Ö§³Ö±í¸ñ£º  
+Markdown ä¹Ÿæ”¯æŒè¡¨æ ¼ï¼š  
   
-| ±êÌâ1 | ±êÌâ2 | ±êÌâ3 |  
+| æ ‡é¢˜1 | æ ‡é¢˜2 | æ ‡é¢˜3 |  
 |-------|-------|-------|  
-| µ¥Ôª¸ñ1 | µ¥Ôª¸ñ2 | µ¥Ôª¸ñ3 |  
-| µ¥Ôª¸ñ4 | µ¥Ôª¸ñ5 | µ¥Ôª¸ñ6 |  
+| å•å…ƒæ ¼1 | å•å…ƒæ ¼2 | å•å…ƒæ ¼3 |  
+| å•å…ƒæ ¼4 | å•å…ƒæ ¼5 | å•å…ƒæ ¼6 |  
   
-Ï£ÍûÕâ¸öMarkdownÎÄ¼þÊ¾ÀýÄÜ°ïÖúÄãÁË½âMarkdownµÄ»ù±¾ÓÃ·¨£¡
+å¸Œæœ›è¿™ä¸ªMarkdownæ–‡ä»¶ç¤ºä¾‹èƒ½å¸®åŠ©ä½ äº†è§£Markdownçš„åŸºæœ¬ç”¨æ³•ï¼
