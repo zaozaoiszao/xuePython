@@ -32,7 +32,7 @@ Markdown 的语法主要有以下几个部分：
   
 ```python  
 def say_hello():  
-    print("Hello, Markdown!")  
+    print("Hello, Markdown and zaozao!")  
   
 say_hello()  
 ```
