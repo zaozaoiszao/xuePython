@@ -47,8 +47,6 @@ say_hello()
   
 ![Markdown Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Markdown-mark.svg/1200px-Markdown-mark.svg.png)  
 
-<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=1706535579&bvid=BV1vT421r7av&cid=1662751242&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
-
 ### 链接  
   
 Markdown 支持链接，你可以这样写：  
