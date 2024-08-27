@@ -45,8 +45,8 @@ say_hello()
   
 你可以在Markdown文件中插入图片，使用`![]()`语法：  
   
-![Markdown Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Markdown-mark.svg/1200px-Markdown-mark.svg.png)  
-  
+![Markdown Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Markdown-mark.svg/1200px-Markdown-mark.svg.png)
+
 ### 链接  
   
 Markdown 支持链接，你可以这样写：  
