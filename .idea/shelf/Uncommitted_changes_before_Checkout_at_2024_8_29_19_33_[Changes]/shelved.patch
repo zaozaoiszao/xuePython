@@ -1,0 +1,54 @@
+Index: temp.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/temp.py b/temp.py
+--- a/temp.py	(revision d5c31592b3f4a55da32db9bdbfca47833e6a0678)
++++ b/temp.py	(date 1724931148000)
+@@ -1,0 +1,1 @@
++print("Hello World!")
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"4880b7d9-c280-4da0-9dbb-bd741d2821b8\" name=\"Changes\" comment=\"```gitfeat(.idea):配置Python SDK和项目模块-.idea文件夹已更新，包含对Python 3.11 SDK的引用以及项目模块的配置。-添加了对新添加的文件和设置的引用，确保项目在IDE中的配置更加完善。&#10;```\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"temp\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {}\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/zaozaoiszao/xuePython.git&quot;,\r\n    &quot;accountId&quot;: &quot;33092f4a-3488-484b-810f-3225eeb3cb53&quot;\r\n  }\r\n}</component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;customColor&quot;: &quot;&quot;,\r\n  &quot;associatedIndex&quot;: 0\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2lHIP0T9MncfFUenvCWj5HmG2HI\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"Python.temp.executor\": \"Run\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"git-widget-placeholder\": \"main\",\r\n    \"settings.editor.selected.configurable\": \"preferences.pluginManager\",\r\n    \"settings.editor.splitter.proportion\": \"0.16437364\"\r\n  }\r\n}]]></component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-python-sdk-abccbe9d933a-ba05f1cad1b1-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.20224.428\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"4880b7d9-c280-4da0-9dbb-bd741d2821b8\" name=\"Changes\" comment=\"\" />\r\n      <created>1724830550480</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1724830550480</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"太好了\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1724889192757</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1724889192757</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"docs(readme):调整列表和代码块格式&#10;&#10;调整README.md中的有序列表格式和代码块展示，以提高清晰度和功能性。另外，重构temp.py中的打印示例，输出&quot;Hello World!&quot;，以简化演示代码。\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1724891116463</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1724891116463</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"feat(temp): 实现简单的猜数字游戏&#10;&#10;添加了一个简单的猜数字游戏逻辑到temp.py脚本。游戏随机选择一个1到100之间的数字，玩家有五次机会猜测该数字。游戏会根据玩家的输入提供反馈，如果猜测的数字过大或过小，并在猜测正确时结束。如果玩家用尽所有机会仍未猜中，游戏会揭示正确的答案并结束。\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1724911006347</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1724911006347</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"```gitfeat(.idea):配置Python SDK和项目模块-.idea文件夹已更新，包含对Python 3.11 SDK的引用以及项目模块的配置。-添加了对新添加的文件和设置的引用，确保项目在IDE中的配置更加完善。&#10;```\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1724911189532</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1724911189532</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"5\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"太好了\" />\r\n    <MESSAGE value=\"docs(readme):调整列表和代码块格式&#10;&#10;调整README.md中的有序列表格式和代码块展示，以提高清晰度和功能性。另外，重构temp.py中的打印示例，输出&quot;Hello World!&quot;，以简化演示代码。\" />\r\n    <MESSAGE value=\"feat(temp): 实现简单的猜数字游戏&#10;&#10;添加了一个简单的猜数字游戏逻辑到temp.py脚本。游戏随机选择一个1到100之间的数字，玩家有五次机会猜测该数字。游戏会根据玩家的输入提供反馈，如果猜测的数字过大或过小，并在猜测正确时结束。如果玩家用尽所有机会仍未猜中，游戏会揭示正确的答案并结束。\" />\r\n    <MESSAGE value=\"```gitfeat(.idea):配置Python SDK和项目模块-.idea文件夹已更新，包含对Python 3.11 SDK的引用以及项目模块的配置。-添加了对新添加的文件和设置的引用，确保项目在IDE中的配置更加完善。&#10;```\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"```gitfeat(.idea):配置Python SDK和项目模块-.idea文件夹已更新，包含对Python 3.11 SDK的引用以及项目模块的配置。-添加了对新添加的文件和设置的引用，确保项目在IDE中的配置更加完善。&#10;```\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision d5c31592b3f4a55da32db9bdbfca47833e6a0678)
++++ b/.idea/workspace.xml	(date 1724931148000)
+@@ -4,7 +4,7 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="4880b7d9-c280-4da0-9dbb-bd741d2821b8" name="Changes" comment="```gitfeat(.idea):配置Python SDK和项目模块-.idea文件夹已更新，包含对Python 3.11 SDK的引用以及项目模块的配置。-添加了对新添加的文件和设置的引用，确保项目在IDE中的配置更加完善。&#10;```" />
++    <list default="true" id="4880b7d9-c280-4da0-9dbb-bd741d2821b8" name="Changes" comment="" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -36,15 +36,15 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "Python.temp.executor": "Run",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "git-widget-placeholder": "main",
+-    "settings.editor.selected.configurable": "preferences.pluginManager",
+-    "settings.editor.splitter.proportion": "0.16437364"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;Python.temp.executor&quot;: &quot;Run&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
++    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
++    &quot;settings.editor.splitter.proportion&quot;: &quot;0.16437364&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="SharedIndexes">
+     <attachedChunks>
+       <set>
