@@ -129,7 +129,7 @@ frame_counter = 0
 # 设置生成新敌人的频率（例如，每30帧生成一次）  
 #enemy_spawn_rate = int(input('请输入您的难度，请输入数字：'))
 
-# 游戏主循环 
+# 游戏主循环  
 clock = pygame.time.Clock()  
 while True:  
     for event in pygame.event.get():  
@@ -139,11 +139,16 @@ while True:
         if event.type == KEYDOWN:  
             if event.key == K_SPACE:  
                 player.shoot()  # 玩家按下空格键时发射子弹  
-            if event.key == K_q:
-                player.ultimate_shoot()  # 玩家按下q键时执行大招
-            if event.key == K_ESCAPE:
-                pygame.quit()
-                sys.exit()
+            if event.key == K_q:  
+                player.ultimate_shoot()  # 玩家按下q键时执行大招  
+            if event.key == K_ESCAPE:  
+                pygame.quit()  
+                sys.exit()  
+            # 添加大招的按键检测  
+            if event.key == K_1:  
+                # 清空敌人组中的所有敌人  
+                for enemy in enemies:  
+                    enemy.kill()  
     # 更新帧计数器  
     frame_counter += 1  
 
@@ -171,14 +176,14 @@ while True:
     # 检查子弹与敌人的碰撞  
     for bullet in list(bullets):  # 使用list避免在迭代时修改集合  
         if pygame.sprite.spritecollide(bullet, enemies, True):  # True表示删除碰撞的敌人  
-            bullet.kill()  # 子弹击中敌人后也销毁  
-
+            bullet.kill()  # 子弹击中敌人后也销毁
+            
     # 绘制背景和所有精灵
     screen.blit(background, (0, 0))  
-    all_sprites.draw(screen)
-
+    all_sprites.draw(screen)  
+  
     # 更新屏幕  
-    pygame.display.flip()
+    pygame.display.flip()  
   
     # 控制帧率  
-    clock.tick(60) 
+    clock.tick(60)   
