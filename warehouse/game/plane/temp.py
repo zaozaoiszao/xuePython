@@ -16,7 +16,7 @@ pygame.display.set_caption("zaozao")
 try:
     background = pygame.image.load("background.jpg")
     player_img = pygame.image.load("player.jpg")
-    enemy_img = pygame.image.load("enemy.png")
+    enemy_img = pygame.image.load("enemy.jpg")
 except pygame.error as e:
     print(f"无法加载图片: {e}")
     pygame.quit()
