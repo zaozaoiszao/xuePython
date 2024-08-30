@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="050eb536-4ff7-4f86-b84e-8d93a50d26ee" name="Changes" comment="" />
+    <list default="true" id="050eb536-4ff7-4f86-b84e-8d93a50d26ee" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp.py" beforeDir="false" afterPath="$PROJECT_DIR$/temp.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,7 +16,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="temp" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -45,7 +48,7 @@
   &quot;keyToString&quot;: {
     &quot;Python.temp.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;temp&quot;
+    &quot;git-widget-placeholder&quot;: &quot;temp2&quot;
   }
 }</component>
   <component name="RunManager">
@@ -121,7 +124,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724980162128</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="移除打印程序运行时间的代码">
+      <option name="closed" value="true" />
+      <created>1724987204955</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1724987204956</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -139,6 +150,8 @@
     <MESSAGE value="```gitfeat(.idea):配置Python SDK和项目模块&#10;&#10;- .idea文件夹已更新，包含对Python 3.11 SDK的引用以及项目模块的配置。&#10;- 添加了对新添加的文件和设置的引用，确保项目在IDE中的配置更加完善。&#10;```" />
     <MESSAGE value="移除计时功能以简化代码结构&#10;&#10;已移除temp.py中的计时功能。代码两端的注释被清理，start和end变量的赋值仍在代码中，但与计时相关的输出已被删除。此更改旨在简化代码结构，保留了原始功能的同时移除了计时功能。" />
     <MESSAGE value="```gitfeat(temp): 移除计时功能并简化代码结构移除temp.py中的计时功能，包括删除计时输出语句和清理无用的start和end变量赋值。此次更改旨在简化代码结构，保留了原始功能的同时移除了计时功能。&#10;```" />
-    <option name="LAST_COMMIT_MESSAGE" value="```gitfeat(temp): 移除计时功能并简化代码结构移除temp.py中的计时功能，包括删除计时输出语句和清理无用的start和end变量赋值。此次更改旨在简化代码结构，保留了原始功能的同时移除了计时功能。&#10;```" />
+    <MESSAGE value="移除打印程序运行时间的代码" />
+    <MESSAGE value="工作区配置修改&#10;&#10;修改workspace.xml，调整工作区配置以适应最新需求。确保新配置正确应用，且兼容现有设置。" />
+    <option name="LAST_COMMIT_MESSAGE" value="工作区配置修改&#10;&#10;修改workspace.xml，调整工作区配置以适应最新需求。确保新配置正确应用，且兼容现有设置。" />
   </component>
 </project>
