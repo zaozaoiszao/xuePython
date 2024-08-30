@@ -1,2 +1,3 @@
-with open('..\\zao\\hello.txt', 'w') as file:  
-    file.write('Hello, World!')
+while True:
+    with open(r'', 'w') as file:
+        file.write('Hello, World!')  

@@ -6,16 +6,16 @@ import random
 pygame.init()
 
 # 设置窗口大小
-screen_width = 1409
+screen_width = 1410
 screen_height = 711
 screen = pygame.display.set_mode((screen_width, screen_height))
 pygame.display.set_caption("zaozao")
 
 # 尝试加载图片资源，并处理异常
 try:
-    background = pygame.image.load("background.jpg")
-    player_img = pygame.image.load("player.jpg")
-    enemy_img = pygame.image.load("enemy.jpg")
+    background = pygame.image.load(r".\warehouse\game\plane\background.jpg")
+    player_img = pygame.image.load(r".\warehouse\game\plane\player.jpg")
+    enemy_img = pygame.image.load(r".\warehouse\game\plane\enemy.jpg")
 except pygame.error as e:
     print(f"无法加载图片: {e}")
     pygame.quit()
