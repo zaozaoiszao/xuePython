@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="050eb536-4ff7-4f86-b84e-8d93a50d26ee" name="Changes" comment="工作区配置更新和代码清理- 简化了temp.py中的代码结构，移除了计时功能。&#10;- 调整了IDE工作区配置，以适应最新的项目需求。&#10;- 确保新配置正确应用，并兼容现有的设置。">
-      <change beforePath="$PROJECT_DIR$/temp.py" beforeDir="false" afterPath="$PROJECT_DIR$/temp.py" afterDir="false" />
-    </list>
+    <list default="true" id="050eb536-4ff7-4f86-b84e-8d93a50d26ee" name="Changes" comment="okok" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,7 +45,8 @@
   "keyToString": {
     "Python.temp.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "temp"
+    "git-widget-placeholder": "temp",
+    "last_opened_file_path": "D:/xuePython/warehouse/game/plane"
   }
 }]]></component>
   <component name="RunManager">
@@ -139,7 +138,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724998970028</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="okok">
+      <option name="closed" value="true" />
+      <created>1724999540212</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1724999540213</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -160,6 +167,7 @@
     <MESSAGE value="移除打印程序运行时间的代码" />
     <MESSAGE value="工作区配置修改&#10;&#10;修改workspace.xml，调整工作区配置以适应最新需求。确保新配置正确应用，且兼容现有设置。" />
     <MESSAGE value="工作区配置更新和代码清理- 简化了temp.py中的代码结构，移除了计时功能。&#10;- 调整了IDE工作区配置，以适应最新的项目需求。&#10;- 确保新配置正确应用，并兼容现有的设置。" />
-    <option name="LAST_COMMIT_MESSAGE" value="工作区配置更新和代码清理- 简化了temp.py中的代码结构，移除了计时功能。&#10;- 调整了IDE工作区配置，以适应最新的项目需求。&#10;- 确保新配置正确应用，并兼容现有的设置。" />
+    <MESSAGE value="okok" />
+    <option name="LAST_COMMIT_MESSAGE" value="okok" />
   </component>
 </project>
