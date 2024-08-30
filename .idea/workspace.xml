@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="050eb536-4ff7-4f86-b84e-8d93a50d26ee" name="Changes" comment="移除计时功能以简化代码结构&#10;&#10;已移除temp.py中的计时功能。代码两端的注释被清理，start和end变量的赋值仍在代码中，但与计时相关的输出已被删除。此更改旨在简化代码结构，保留了原始功能的同时移除了计时功能。">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="050eb536-4ff7-4f86-b84e-8d93a50d26ee" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +30,9 @@
     &quot;accountId&quot;: &quot;33092f4a-3488-484b-810f-3225eeb3cb53&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/temp.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -112,12 +113,32 @@
       <option name="project" value="LOCAL" />
       <updated>1724978607358</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="```gitfeat(temp): 移除计时功能并简化代码结构移除temp.py中的计时功能，包括删除计时输出语句和清理无用的start和end变量赋值。此次更改旨在简化代码结构，保留了原始功能的同时移除了计时功能。&#10;```">
+      <option name="closed" value="true" />
+      <created>1724980162128</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1724980162128</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="```gitfeat(.idea):配置Python SDK和项目模块&#10;&#10;- .idea文件夹已更新，包含对Python 3.11 SDK的引用以及项目模块的配置。&#10;- 添加了对新添加的文件和设置的引用，确保项目在IDE中的配置更加完善。&#10;```" />
     <MESSAGE value="移除计时功能以简化代码结构&#10;&#10;已移除temp.py中的计时功能。代码两端的注释被清理，start和end变量的赋值仍在代码中，但与计时相关的输出已被删除。此更改旨在简化代码结构，保留了原始功能的同时移除了计时功能。" />
-    <option name="LAST_COMMIT_MESSAGE" value="移除计时功能以简化代码结构&#10;&#10;已移除temp.py中的计时功能。代码两端的注释被清理，start和end变量的赋值仍在代码中，但与计时相关的输出已被删除。此更改旨在简化代码结构，保留了原始功能的同时移除了计时功能。" />
+    <MESSAGE value="```gitfeat(temp): 移除计时功能并简化代码结构移除temp.py中的计时功能，包括删除计时输出语句和清理无用的start和end变量赋值。此次更改旨在简化代码结构，保留了原始功能的同时移除了计时功能。&#10;```" />
+    <option name="LAST_COMMIT_MESSAGE" value="```gitfeat(temp): 移除计时功能并简化代码结构移除temp.py中的计时功能，包括删除计时输出语句和清理无用的start和end变量赋值。此次更改旨在简化代码结构，保留了原始功能的同时移除了计时功能。&#10;```" />
   </component>
 </project>
