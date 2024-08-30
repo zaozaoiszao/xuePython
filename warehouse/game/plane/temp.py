@@ -12,10 +12,16 @@ screen_height = 700
 screen = pygame.display.set_mode((screen_width, screen_height))
 pygame.display.set_caption("zaozao")
 
-# 加载图片资源
-background = pygame.image.load("background.jpg")
-player_img = pygame.image.load("player.jpg")
-enemy_img = pygame.image.load("enemy.png")
+# 尝试加载图片资源，并处理异常
+try:
+    background = pygame.image.load("background.jpg")
+    player_img = pygame.image.load("player.jpg")
+    enemy_img = pygame.image.load("enemy.png")
+except pygame.error as e:
+    print(f"无法加载图片: {e}")
+    pygame.quit()
+    sys.exit()
+
 
 # 定义玩家飞机类
 class Player(pygame.sprite.Sprite):
@@ -33,7 +39,9 @@ class Player(pygame.sprite.Sprite):
         if keys[K_RIGHT] and self.rect.right < screen_width:
             self.rect.move_ip(5, 0)
 
-# 定义敌人飞机类
+        # 定义敌人飞机类
+
+
 class Enemy(pygame.sprite.Sprite):
     def __init__(self):
         super().__init__()
@@ -47,7 +55,9 @@ class Enemy(pygame.sprite.Sprite):
         if self.rect.top > screen_height:
             self.kill()
 
-# 创建精灵组
+        # 创建精灵组
+
+
 all_sprites = pygame.sprite.Group()
 enemies = pygame.sprite.Group()
 
@@ -55,7 +65,7 @@ enemies = pygame.sprite.Group()
 player = Player()
 all_sprites.add(player)
 
-# 创建敌人飞机实例
+# 初始生成敌人飞机实例
 for _ in range(5):
     enemy = Enemy()
     all_sprites.add(enemy)
@@ -69,16 +79,24 @@ while True:
             pygame.quit()
             sys.exit()
 
-    # 更新精灵位置
+            # 更新精灵位置
     all_sprites.update()
 
     # 检查碰撞
     if pygame.sprite.spritecollide(player, enemies, True):
-        print("Game Over!")
-        pygame.quit()
-        sys.exit()
+        print("Game Over! Regenerating enemies...")
+        # 重置敌人
+        enemies.empty()
+        all_sprites.remove(player)  # 如果需要重置玩家位置或状态也在这里做
+        player = Player()  # 重新创建玩家实例
+        all_sprites.add(player)
+        # 重新生成敌人
+        for _ in range(5):
+            enemy = Enemy()
+            all_sprites.add(enemy)
+            enemies.add(enemy)
 
-    # 绘制背景和所有精灵
+            # 绘制背景和所有精灵
     screen.blit(background, (0, 0))
     all_sprites.draw(screen)
 
@@ -86,4 +104,4 @@ while True:
     pygame.display.flip()
 
     # 控制帧率
-    clock.tick(60)
+    clock.tick(30)
