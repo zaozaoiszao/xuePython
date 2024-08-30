@@ -56,7 +56,6 @@ class Enemy(pygame.sprite.Sprite):
 
         # 创建精灵组
 
-
 all_sprites = pygame.sprite.Group()
 enemies = pygame.sprite.Group()
 
