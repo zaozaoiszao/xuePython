@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="050eb536-4ff7-4f86-b84e-8d93a50d26ee" name="Changes" comment="```gitfeat(.idea):配置Python SDK和项目模块&#10;&#10;- .idea文件夹已更新，包含对Python 3.11 SDK的引用以及项目模块的配置。&#10;- 添加了对新添加的文件和设置的引用，确保项目在IDE中的配置更加完善。&#10;```">
+    <list default="true" id="050eb536-4ff7-4f86-b84e-8d93a50d26ee" name="Changes" comment="移除计时功能以简化代码结构&#10;&#10;已移除temp.py中的计时功能。代码两端的注释被清理，start和end变量的赋值仍在代码中，但与计时相关的输出已被删除。此更改旨在简化代码结构，保留了原始功能的同时移除了计时功能。">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp.py" beforeDir="false" afterPath="$PROJECT_DIR$/temp.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,33 +20,33 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "zaozaoiszao"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;zaozaoiszao&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/zaozaoiszao/xuePython.git",
-    "accountId": "33092f4a-3488-484b-810f-3225eeb3cb53"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/zaozaoiszao/xuePython.git&quot;,
+    &quot;accountId&quot;: &quot;33092f4a-3488-484b-810f-3225eeb3cb53&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2lM2LJYE2Y35CaMoAkpPl3nZpeJ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.temp.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "temp"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.temp.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;temp&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="temp" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="xuePython" />
@@ -89,10 +88,36 @@
       <option name="presentableId" value="Default" />
       <updated>1724975579267</updated>
     </task>
+    <task id="LOCAL-00001" summary="```gitfeat(.idea):配置Python SDK和项目模块&#10;&#10;- .idea文件夹已更新，包含对Python 3.11 SDK的引用以及项目模块的配置。&#10;- 添加了对新添加的文件和设置的引用，确保项目在IDE中的配置更加完善。&#10;```">
+      <option name="closed" value="true" />
+      <created>1724977206648</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1724977206648</updated>
+    </task>
+    <task id="LOCAL-00002" summary="移除计时功能以简化代码结构&#10;&#10;已移除temp.py中的计时功能。代码两端的注释被清理，start和end变量的赋值仍在代码中，但与计时相关的输出已被删除。此更改旨在简化代码结构，保留了原始功能的同时移除了计时功能。">
+      <option name="closed" value="true" />
+      <created>1724977258423</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1724977258423</updated>
+    </task>
+    <task id="LOCAL-00003" summary="移除计时功能以简化代码结构&#10;&#10;已移除temp.py中的计时功能。代码两端的注释被清理，start和end变量的赋值仍在代码中，但与计时相关的输出已被删除。此更改旨在简化代码结构，保留了原始功能的同时移除了计时功能。">
+      <option name="closed" value="true" />
+      <created>1724978607358</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1724978607358</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="```gitfeat(.idea):配置Python SDK和项目模块&#10;&#10;- .idea文件夹已更新，包含对Python 3.11 SDK的引用以及项目模块的配置。&#10;- 添加了对新添加的文件和设置的引用，确保项目在IDE中的配置更加完善。&#10;```" />
-    <option name="LAST_COMMIT_MESSAGE" value="```gitfeat(.idea):配置Python SDK和项目模块&#10;&#10;- .idea文件夹已更新，包含对Python 3.11 SDK的引用以及项目模块的配置。&#10;- 添加了对新添加的文件和设置的引用，确保项目在IDE中的配置更加完善。&#10;```" />
+    <MESSAGE value="移除计时功能以简化代码结构&#10;&#10;已移除temp.py中的计时功能。代码两端的注释被清理，start和end变量的赋值仍在代码中，但与计时相关的输出已被删除。此更改旨在简化代码结构，保留了原始功能的同时移除了计时功能。" />
+    <option name="LAST_COMMIT_MESSAGE" value="移除计时功能以简化代码结构&#10;&#10;已移除temp.py中的计时功能。代码两端的注释被清理，start和end变量的赋值仍在代码中，但与计时相关的输出已被删除。此更改旨在简化代码结构，保留了原始功能的同时移除了计时功能。" />
   </component>
 </project>
