@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d53ebdc-ee31-4f26-a8bb-76f07c9fb0de" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/xuePython.iml" beforeDir="false" />
+    <list default="true" id="050eb536-4ff7-4f86-b84e-8d93a50d26ee" name="Changes" comment="```gitfeat(.idea):配置Python SDK和项目模块&#10;&#10;- .idea文件夹已更新，包含对Python 3.11 SDK的引用以及项目模块的配置。&#10;- 添加了对新添加的文件和设置的引用，确保项目在IDE中的配置更加完善。&#10;```">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/temp.py" beforeDir="false" afterPath="$PROJECT_DIR$/temp.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,16 +21,78 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "zaozaoiszao"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/zaozaoiszao/xuePython.git",
+    "accountId": "33092f4a-3488-484b-810f-3225eeb3cb53"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2lM2LJYE2Y35CaMoAkpPl3nZpeJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.temp.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "temp"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="temp" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="xuePython" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.11" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/temp.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-abccbe9d933a-ba05f1cad1b1-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.20224.428" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="050eb536-4ff7-4f86-b84e-8d93a50d26ee" name="Changes" comment="```gitfeat(.idea):配置Python SDK和项目模块&#10;&#10;- .idea文件夹已更新，包含对Python 3.11 SDK的引用以及项目模块的配置。&#10;- 添加了对新添加的文件和设置的引用，确保项目在IDE中的配置更加完善。&#10;```" />
+      <created>1724975579267</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1724975579267</updated>
+    </task>
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="```gitfeat(.idea):配置Python SDK和项目模块&#10;&#10;- .idea文件夹已更新，包含对Python 3.11 SDK的引用以及项目模块的配置。&#10;- 添加了对新添加的文件和设置的引用，确保项目在IDE中的配置更加完善。&#10;```" />
+    <option name="LAST_COMMIT_MESSAGE" value="```gitfeat(.idea):配置Python SDK和项目模块&#10;&#10;- .idea文件夹已更新，包含对Python 3.11 SDK的引用以及项目模块的配置。&#10;- 添加了对新添加的文件和设置的引用，确保项目在IDE中的配置更加完善。&#10;```" />
   </component>
 </project>
