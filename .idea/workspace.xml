@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="050eb536-4ff7-4f86-b84e-8d93a50d26ee" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="050eb536-4ff7-4f86-b84e-8d93a50d26ee" name="Changes" comment="工作区配置更新和代码清理- 简化了temp.py中的代码结构，移除了计时功能。&#10;- 调整了IDE工作区配置，以适应最新的项目需求。&#10;- 确保新配置正确应用，并兼容现有的设置。">
       <change beforePath="$PROJECT_DIR$/temp.py" beforeDir="false" afterPath="$PROJECT_DIR$/temp.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,7 +15,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="temp" />
+        <entry key="$PROJECT_DIR$" value="temp2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -44,13 +43,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.temp.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;temp2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.temp.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "temp"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="temp" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="xuePython" />
@@ -132,7 +131,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724987204956</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="工作区配置更新和代码清理- 简化了temp.py中的代码结构，移除了计时功能。&#10;- 调整了IDE工作区配置，以适应最新的项目需求。&#10;- 确保新配置正确应用，并兼容现有的设置。">
+      <option name="closed" value="true" />
+      <created>1724998970028</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1724998970028</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -152,6 +159,7 @@
     <MESSAGE value="```gitfeat(temp): 移除计时功能并简化代码结构移除temp.py中的计时功能，包括删除计时输出语句和清理无用的start和end变量赋值。此次更改旨在简化代码结构，保留了原始功能的同时移除了计时功能。&#10;```" />
     <MESSAGE value="移除打印程序运行时间的代码" />
     <MESSAGE value="工作区配置修改&#10;&#10;修改workspace.xml，调整工作区配置以适应最新需求。确保新配置正确应用，且兼容现有设置。" />
-    <option name="LAST_COMMIT_MESSAGE" value="工作区配置修改&#10;&#10;修改workspace.xml，调整工作区配置以适应最新需求。确保新配置正确应用，且兼容现有设置。" />
+    <MESSAGE value="工作区配置更新和代码清理- 简化了temp.py中的代码结构，移除了计时功能。&#10;- 调整了IDE工作区配置，以适应最新的项目需求。&#10;- 确保新配置正确应用，并兼容现有的设置。" />
+    <option name="LAST_COMMIT_MESSAGE" value="工作区配置更新和代码清理- 简化了temp.py中的代码结构，移除了计时功能。&#10;- 调整了IDE工作区配置，以适应最新的项目需求。&#10;- 确保新配置正确应用，并兼容现有的设置。" />
   </component>
 </project>
