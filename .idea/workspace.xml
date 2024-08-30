@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="050eb536-4ff7-4f86-b84e-8d93a50d26ee" name="Changes" comment="```修改游戏窗口标题为&quot;zaozao&quot;&#10;&#10;在`temp.py`文件中，将pygame显示的标题从“飞机大战”更改为“zaozao”。此次更改仅涉及标题的重命名，不影响游戏的其他功能或性能。```">
-      <change beforePath="$PROJECT_DIR$/warehouse/game/plane/temp.py" beforeDir="false" afterPath="$PROJECT_DIR$/warehouse/game/plane/temp.py" afterDir="false" />
-    </list>
+    <list default="true" id="050eb536-4ff7-4f86-b84e-8d93a50d26ee" name="Changes" comment="```调整游戏窗口尺寸以适配不同屏幕&#10;&#10;调整了`warehouse/game/plane/temp.py`中的窗口大小设置，将宽度从480增加到1410，高度从700增加到711，以更好地适配不同显示屏幕。同时更新了`pygame.display.set_mode()`以反映这些更改，确保游戏界面在不同分辨率的显示器上能正确显示。&#10;```" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -169,7 +167,31 @@
       <option name="project" value="LOCAL" />
       <updated>1724999617075</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="游戏初始化和资源加载优化&#10;&#10;- 移除不必要的注释并修正代码格式，以符合编码风格。- 在加载图像资源时增加异常处理，确保在图像无法加载时退出游戏并打印错误信息。&#10;- 调整玩家飞机实例创建位置，以防止在游戏主循环中错误地更新其位置。&#10;- 增加敌人飞机的初始生成逻辑，确保游戏开始时有多个敌人。&#10;- 在玩家飞机与敌人飞机碰撞后，重置敌人并重新创建玩家实例，以延续游戏。&#10;- 调整游戏主循环中的帧率控制，从60帧/秒更改为30帧/秒，以提高性能。">
+      <option name="closed" value="true" />
+      <created>1724999952990</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1724999953024</updated>
+    </task>
+    <task id="LOCAL-00011" summary="```修改游戏窗口标题为&quot;zaozao&quot;&#10;&#10;在`temp.py`文件中，将pygame显示的标题从“飞机大战”更改为“zaozao”。此次更改仅涉及标题的重命名，不影响游戏的其他功能或性能。```">
+      <option name="closed" value="true" />
+      <created>1725000707973</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1725000707973</updated>
+    </task>
+    <task id="LOCAL-00012" summary="```调整游戏窗口尺寸以适配不同屏幕&#10;&#10;调整了`warehouse/game/plane/temp.py`中的窗口大小设置，将宽度从480增加到1410，高度从700增加到711，以更好地适配不同显示屏幕。同时更新了`pygame.display.set_mode()`以反映这些更改，确保游戏界面在不同分辨率的显示器上能正确显示。&#10;```">
+      <option name="closed" value="true" />
+      <created>1725000759593</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1725000759593</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -191,7 +213,9 @@
     <MESSAGE value="工作区配置修改&#10;&#10;修改workspace.xml，调整工作区配置以适应最新需求。确保新配置正确应用，且兼容现有设置。" />
     <MESSAGE value="工作区配置更新和代码清理- 简化了temp.py中的代码结构，移除了计时功能。&#10;- 调整了IDE工作区配置，以适应最新的项目需求。&#10;- 确保新配置正确应用，并兼容现有的设置。" />
     <MESSAGE value="okok" />
+    <MESSAGE value="游戏初始化和资源加载优化&#10;&#10;- 移除不必要的注释并修正代码格式，以符合编码风格。- 在加载图像资源时增加异常处理，确保在图像无法加载时退出游戏并打印错误信息。&#10;- 调整玩家飞机实例创建位置，以防止在游戏主循环中错误地更新其位置。&#10;- 增加敌人飞机的初始生成逻辑，确保游戏开始时有多个敌人。&#10;- 在玩家飞机与敌人飞机碰撞后，重置敌人并重新创建玩家实例，以延续游戏。&#10;- 调整游戏主循环中的帧率控制，从60帧/秒更改为30帧/秒，以提高性能。" />
     <MESSAGE value="```修改游戏窗口标题为&quot;zaozao&quot;&#10;&#10;在`temp.py`文件中，将pygame显示的标题从“飞机大战”更改为“zaozao”。此次更改仅涉及标题的重命名，不影响游戏的其他功能或性能。```" />
-    <option name="LAST_COMMIT_MESSAGE" value="```修改游戏窗口标题为&quot;zaozao&quot;&#10;&#10;在`temp.py`文件中，将pygame显示的标题从“飞机大战”更改为“zaozao”。此次更改仅涉及标题的重命名，不影响游戏的其他功能或性能。```" />
+    <MESSAGE value="```调整游戏窗口尺寸以适配不同屏幕&#10;&#10;调整了`warehouse/game/plane/temp.py`中的窗口大小设置，将宽度从480增加到1410，高度从700增加到711，以更好地适配不同显示屏幕。同时更新了`pygame.display.set_mode()`以反映这些更改，确保游戏界面在不同分辨率的显示器上能正确显示。&#10;```" />
+    <option name="LAST_COMMIT_MESSAGE" value="```调整游戏窗口尺寸以适配不同屏幕&#10;&#10;调整了`warehouse/game/plane/temp.py`中的窗口大小设置，将宽度从480增加到1410，高度从700增加到711，以更好地适配不同显示屏幕。同时更新了`pygame.display.set_mode()`以反映这些更改，确保游戏界面在不同分辨率的显示器上能正确显示。&#10;```" />
   </component>
 </project>
