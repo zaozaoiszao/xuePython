@@ -2,7 +2,6 @@ import pygame
 from pygame.locals import *
 import sys
 import random
-
 # 初始化pygame
 pygame.init()
 
@@ -78,7 +77,10 @@ while True:
         if event.type == QUIT:
             pygame.quit()
             sys.exit()
-
+        for _ in range(5):
+            enemy = Enemy()
+            all_sprites.add(enemy)
+            enemies.add(enemy)
             # 更新精灵位置
     all_sprites.update()
 
@@ -104,4 +106,4 @@ while True:
     pygame.display.flip()
 
     # 控制帧率
-    clock.tick(30)
+    clock.tick(60)
