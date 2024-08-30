@@ -3,7 +3,8 @@ from pygame.locals import *
 import sys  
 import random
 import math 
-
+import time
+beff = False
 # 设置生成新敌人的频率（例如，每30帧生成一次）  
 #enemy_spawn_rate = int(input('请输入您的难度，请输入数字：'))
 enemy_spawn_rate = 5
@@ -79,8 +80,8 @@ class Player(pygame.sprite.Sprite):
         for angle in directions:  
             # 计算子弹的初始位置（玩家底部中心沿角度偏移）  
             rad = math.radians(angle)  
-            x_offset = math.cos(rad) * 20  # 偏移量可以根据需要调整  
-            y_offset = math.sin(rad) * 20  # 偏移量可以根据需要调整  
+            x_offset = math.cos(rad) * 50  # 偏移量可以根据需要调整  
+            y_offset = math.sin(rad) * 50  # 偏移量可以根据需要调整  
             bullet_x = self.rect.centerx + x_offset  
             bullet_y = self.rect.bottom  
   
@@ -102,7 +103,11 @@ class Enemy(pygame.sprite.Sprite):
         self.rect.move_ip(0, 3)  
         if self.rect.top > screen_height:  
             self.kill()  
-  
+    '''
+    def dazhao(self):
+        self.kill()
+    '''
+    
 # 创建精灵组  
 all_sprites = pygame.sprite.Group()  
 enemies = pygame.sprite.Group()  
@@ -134,8 +139,9 @@ while True:
             if event.key == K_SPACE:  
                 player.shoot()  # 玩家按下空格键时发射子弹  
             if event.key == K_q:  
-                player.ultimate_shoot()  # 玩家按下q键时执行大招  
-  
+                player.ultimate_shoot()  # 玩家按下q键时执行大招 
+            if event.key == K_p:  
+                Enemy.dazhao()  # 玩家按下p键时执行大招 
     # 更新帧计数器  
     frame_counter += 1  
 
@@ -155,7 +161,10 @@ while True:
         print("玩家与敌人发生碰撞！")  
         die_sound.play()  # 播放死亡声音
         #print('\a')
-        # 这里可以添加玩家死亡后的逻辑，比如重置游戏或显示游戏结束界面 
+        # 这里可以添加玩家死亡后的逻辑，比如重置游戏或显示游戏结束界面
+        time.sleep(1)
+        pygame.quit()  
+        sys.exit()
   
     # 检查子弹与敌人的碰撞  
     for bullet in list(bullets):  # 使用list避免在迭代时修改集合  
@@ -167,7 +176,7 @@ while True:
     all_sprites.draw(screen)  
 
     # 更新屏幕  
-    pygame.display.flip()    
+    pygame.display.flip()
   
     # 控制帧率  
     clock.tick(60) 
