@@ -10,7 +10,7 @@ pygame.init()
 screen_width = 480
 screen_height = 700
 screen = pygame.display.set_mode((screen_width, screen_height))
-pygame.display.set_caption("飞机大战")
+pygame.display.set_caption("zaozao")
 
 # 加载图片资源
 background = pygame.image.load("background.jpg")
