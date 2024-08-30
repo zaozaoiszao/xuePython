@@ -1,10 +1,15 @@
 import pygame  
 from pygame.locals import *  
 import sys  
-import random  
-  
+import random
+import math 
+
+# 设置生成新敌人的频率（例如，每30帧生成一次）  
+#enemy_spawn_rate = int(input('请输入您的难度，请输入数字：'))
+enemy_spawn_rate = 5
+
 # 初始化pygame  
-pygame.init()  
+pygame.init()
   
 # 设置窗口大小  
 screen_width = 1410  
@@ -22,6 +27,14 @@ except pygame.error as e:
     pygame.quit()  
     sys.exit()  
   
+# 尝试加载声音资源  
+try:  
+    die_sound = pygame.mixer.Sound(r".\warehouse\game\plane\die.mp3")  
+except pygame.error as e:  
+    print(f"无法加载声音文件: {e}")  
+    pygame.quit()  
+    sys.exit()
+
 # 定义子弹类  
 class Bullet(pygame.sprite.Sprite):  
     def __init__(self, x, y):  
@@ -59,6 +72,22 @@ class Player(pygame.sprite.Sprite):
         bullet = Bullet(self.rect.centerx, self.rect.bottom)  
         all_sprites.add(bullet)  
         bullets.add(bullet)  
+        
+    def ultimate_shoot(self):  
+        # 假设我们发射8个方向的子弹  
+        directions = [0, 45, 90, 135, 180, 225, 270, 315]  
+        for angle in directions:  
+            # 计算子弹的初始位置（玩家底部中心沿角度偏移）  
+            rad = math.radians(angle)  
+            x_offset = math.cos(rad) * 20  # 偏移量可以根据需要调整  
+            y_offset = math.sin(rad) * 20  # 偏移量可以根据需要调整  
+            bullet_x = self.rect.centerx + x_offset  
+            bullet_y = self.rect.bottom  
+  
+            # 创建子弹并添加到组  
+            bullet = Bullet(bullet_x, bullet_y)  
+            all_sprites.add(bullet)  
+            bullets.add(bullet)  
   
 # 定义敌人飞机类  
 class Enemy(pygame.sprite.Sprite):  
@@ -89,13 +118,11 @@ for _ in range(5):
     all_sprites.add(enemy)  
     enemies.add(enemy)  
 
-# ... (之前的代码保持不变)  
-  
 # 添加一个计数器来跟踪帧数  
 frame_counter = 0  
 # 设置生成新敌人的频率（例如，每30帧生成一次）  
-enemy_spawn_rate = 30  
-  
+#enemy_spawn_rate = int(input('请输入您的难度，请输入数字：'))
+
 # 游戏主循环  
 clock = pygame.time.Clock()  
 while True:  
@@ -106,32 +133,41 @@ while True:
         if event.type == KEYDOWN:  
             if event.key == K_SPACE:  
                 player.shoot()  # 玩家按下空格键时发射子弹  
+            if event.key == K_q:  
+                player.ultimate_shoot()  # 玩家按下q键时执行大招  
   
     # 更新帧计数器  
     frame_counter += 1  
-  
+
     # 如果达到生成敌人的帧数，则生成新敌人  
     if frame_counter >= enemy_spawn_rate:  
         frame_counter = 0  # 重置计数器  
         for _ in range(5):  # 假设每次生成5个敌人  
             enemy = Enemy()  
             all_sprites.add(enemy)  
-            enemies.add(enemy)  
+            enemies.add(enemy) 
   
     # 更新精灵位置  
     all_sprites.update()  
+  
+    # 检查玩家与敌人的碰撞  
+    if pygame.sprite.spritecollide(player, enemies, False):  # False表示不删除碰撞的敌人  
+        print("玩家与敌人发生碰撞！")  
+        die_sound.play()  # 播放死亡声音
+        #print('\a')
+        # 这里可以添加玩家死亡后的逻辑，比如重置游戏或显示游戏结束界面 
   
     # 检查子弹与敌人的碰撞  
     for bullet in list(bullets):  # 使用list避免在迭代时修改集合  
         if pygame.sprite.spritecollide(bullet, enemies, True):  # True表示删除碰撞的敌人  
             bullet.kill()  # 子弹击中敌人后也销毁  
-  
+
     # 绘制背景和所有精灵  
     screen.blit(background, (0, 0))  
     all_sprites.draw(screen)  
-  
+
     # 更新屏幕  
     pygame.display.flip()    
   
     # 控制帧率  
-    clock.tick(60)
+    clock.tick(60) 
