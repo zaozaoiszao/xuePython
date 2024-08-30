@@ -142,7 +142,8 @@ while True:
             if event.key == K_q:
                 player.ultimate_shoot()  # 玩家按下q键时执行大招
             if event.key == K_ESCAPE:
-                player.ultimate_shoot()
+                pygame.quit()
+                sys.exit()
     # 更新帧计数器  
     frame_counter += 1  
 
