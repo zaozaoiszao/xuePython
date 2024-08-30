@@ -101,7 +101,9 @@ while True:
             # 绘制背景和所有精灵
     screen.blit(background, (0, 0))
     all_sprites.draw(screen)
-    # 更新屏幕1
+    # 更新屏幕
+    
     pygame.display.flip()
+    
     # 控制帧率
     clock.tick(60)
