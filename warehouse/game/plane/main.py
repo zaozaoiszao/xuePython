@@ -4,7 +4,8 @@ import sys
 import random
 import math 
 import time
-beff = False
+import tkinter
+
 # 设置生成新敌人的频率（例如，每30帧生成一次）  
 #enemy_spawn_rate = int(input('请输入您的难度，请输入数字：'))
 enemy_spawn_rate = 5
@@ -98,20 +99,20 @@ class Enemy(pygame.sprite.Sprite):
         self.rect = self.image.get_rect()  
         self.rect.centerx = random.randint(0, screen_width)  
         self.rect.top = 0  
-  
-    def update(self):  
-        self.rect.move_ip(0, 3)  
-        if self.rect.top > screen_height:  
-            self.kill()  
+
+    def update(self):
+        self.rect.move_ip(0, 3)
+        if self.rect.top > screen_height:
+            self.kill()
     '''
     def dazhao(self):
         self.kill()
     '''
-    
-# 创建精灵组  
-all_sprites = pygame.sprite.Group()  
-enemies = pygame.sprite.Group()  
-bullets = pygame.sprite.Group()  # 新增子弹组  
+
+# 创建精灵组
+all_sprites = pygame.sprite.Group()
+enemies = pygame.sprite.Group()
+bullets = pygame.sprite.Group()  # 新增子弹组
   
 # 创建玩家飞机实例  
 player = Player()  
@@ -121,14 +122,14 @@ all_sprites.add(player)
 for _ in range(5):  
     enemy = Enemy()  
     all_sprites.add(enemy)  
-    enemies.add(enemy)  
+    enemies.add(enemy)
 
-# 添加一个计数器来跟踪帧数  
+# 添加一个计数器来跟踪帧数 
 frame_counter = 0  
 # 设置生成新敌人的频率（例如，每30帧生成一次）  
 #enemy_spawn_rate = int(input('请输入您的难度，请输入数字：'))
 
-# 游戏主循环  
+# 游戏主循环 
 clock = pygame.time.Clock()  
 while True:  
     for event in pygame.event.get():  
@@ -138,10 +139,10 @@ while True:
         if event.type == KEYDOWN:  
             if event.key == K_SPACE:  
                 player.shoot()  # 玩家按下空格键时发射子弹  
-            if event.key == K_q:  
-                player.ultimate_shoot()  # 玩家按下q键时执行大招 
-            if event.key == K_p:  
-                Enemy.dazhao()  # 玩家按下p键时执行大招 
+            if event.key == K_q:
+                player.ultimate_shoot()  # 玩家按下q键时执行大招
+            if event.key == K_ESCAPE:
+                player.ultimate_shoot()
     # 更新帧计数器  
     frame_counter += 1  
 
@@ -155,7 +156,7 @@ while True:
   
     # 更新精灵位置  
     all_sprites.update()  
-  
+
     # 检查玩家与敌人的碰撞  
     if pygame.sprite.spritecollide(player, enemies, False):  # False表示不删除碰撞的敌人  
         print("玩家与敌人发生碰撞！")  
@@ -171,9 +172,9 @@ while True:
         if pygame.sprite.spritecollide(bullet, enemies, True):  # True表示删除碰撞的敌人  
             bullet.kill()  # 子弹击中敌人后也销毁  
 
-    # 绘制背景和所有精灵  
+    # 绘制背景和所有精灵
     screen.blit(background, (0, 0))  
-    all_sprites.draw(screen)  
+    all_sprites.draw(screen)
 
     # 更新屏幕  
     pygame.display.flip()
