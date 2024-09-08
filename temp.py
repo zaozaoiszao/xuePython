@@ -17,6 +17,7 @@ try:
     cipher.set_key(key, sm4.SM4_ENCRYPT)
 except:  
     print("注意：密钥长度必须是16字节")
+    exit()
   
 # 加密
 ciphertext = cipher.crypt_ecb(plaintext)  
