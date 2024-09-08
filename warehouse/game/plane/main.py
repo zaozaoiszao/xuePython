@@ -4,7 +4,7 @@ import sys
 import random
 import math 
 import time
-import tkinter
+#import tkinter
 
 # 设置生成新敌人的频率（例如，每30帧生成一次）  
 #enemy_spawn_rate = int(input('请输入您的难度，请输入数字：'))
@@ -184,6 +184,6 @@ while True:
   
     # 更新屏幕  
     pygame.display.flip()  
-  
+   
     # 控制帧率  
     clock.tick(60)   
